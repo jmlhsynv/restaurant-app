@@ -1,0 +1,124 @@
+{
+  "tables": [
+    {
+      "id": 1,
+      "name": "Masa 1"
+    },
+    {
+      "id": 2,
+      "name": "Masa 2"
+    },
+    {
+      "id": 3,
+      "name": "Masa 3"
+    },
+    {
+      "id": 4,
+      "name": "Masa 4"
+    },
+    {
+      "id": 5,
+      "name": "Masa 5"
+    },
+    {
+      "id": 6,
+      "name": "Masa 6"
+    }
+  ],
+  "statuses": [
+    {
+      "id": 1,
+      "name": "Sonlanmayan"
+    },
+    {
+      "id": 2,
+      "name": "Sonlanan"
+    },
+    {
+      "id": 3,
+      "name": "Ləğv edilən"
+    }
+  ],
+  "servants": [
+    {
+      "name": "Ali",
+      "surname": "Aliyev",
+      "id": 1
+    },
+    {
+      "name": "Vali",
+      "surname": "Valiyev",
+      "id": 2
+    },
+    {
+      "name": "Huseyn",
+      "surname": "Huseynov",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Marqarita Pizza",
+      "price": 25,
+      "description": "Pizza xəmiri, xüsusi pizza sousu, mozarella pendiri."
+    },
+    {
+      "id": 2,
+      "name": "QUZU TİKƏ KABAB",
+      "price": 10,
+      "description": "QUZU TİKƏ KABAB"
+    },
+    {
+      "description": "Corekde et doneri",
+      "price": 3.5,
+      "name": "Corekde et doneri",
+      "id": 3
+    },
+    {
+      "description": "Lavashda toyuq doneri",
+      "price": 5,
+      "name": "Lavashda toyuq doneri",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "table": "2",
+      "servant": "1",
+      "endDate": "2022-12-05T14:43:15.879Z",
+      "content": [
+        {
+          "id": 2,
+          "name": "Corekde et doneri",
+          "count": 1,
+          "amount": 3.5,
+          "order_time": "2022-12-05T14:41:57.022Z",
+          "pending": "1 min",
+          "status": "verildi"
+        },
+        {
+          "id": 1,
+          "name": "Marqarita Pizza",
+          "count": 2,
+          "amount": 10,
+          "order_time": "2022-12-05T14:41:50.455Z",
+          "pending": "1 min",
+          "status": "verildi"
+        },
+        {
+          "id": 3,
+          "name": "Lavashda toyuq doneri",
+          "count": 2,
+          "amount": 10,
+          "order_time": "2022-12-05T14:42:40.599Z",
+          "pending": "0 min",
+          "status": "verildi"
+        }
+      ],
+      "status": 2,
+      "totalPrice": 23.5,
+      "id": 1
+    }
+  ]
+}
