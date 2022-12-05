@@ -2,6 +2,32 @@
 
 A restaurant app with json-server and react js.
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/jmlhsynv/restaurant-app
+```
+
+Go to the project directory
+
+```bash
+  cd restaurant-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
 ## API Reference
 
 #### Get all items
