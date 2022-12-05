@@ -34,8 +34,10 @@ Start the server
 
 Use json-server for fake api https://www.npmjs.com/package/json-server
 
-```http
-  GET http://localhost:7000
+Run fake json
+
+```bash
+  npx json-server --watch db/db.json --port 7000
 ```
 
 | Parameter | Type     | Description                         |
